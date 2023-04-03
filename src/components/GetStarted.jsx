@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../style";
+import arrowup from "../assets/arrowup.svg";
 
 const GetStarted = () => (
   <div
@@ -12,7 +13,7 @@ const GetStarted = () => (
         <p className="font-poppins font-medium text-[18px] leading-[23px] mr-2">
           <span className="text-gradient">Criar</span>
         </p>
-        <img src={arrowUp} className="w-[23px] h-[23px] object-contain" />
+        <img src={arrowup} className="w-[23px] h-[23px] object-contain" />
       </div>
       <p className="font-poppins font-medium text-[18px] leading-[23px]">
         <span className="text-gradient">Conta</span>
