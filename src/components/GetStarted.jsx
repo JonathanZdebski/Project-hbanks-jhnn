@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "../style";
-import arrowUp from "../assets/arrow-Up.svg";
 
 const GetStarted = () => (
   <div
